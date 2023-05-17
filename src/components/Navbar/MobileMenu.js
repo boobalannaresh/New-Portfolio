@@ -24,17 +24,19 @@ const MobileMenu = ({ isOpen, toggle }) => {
         <MobileMenuLink to="home" onClick={toggle}>
           Home
         </MobileMenuLink>
-        <MobileMenuLink to="projects" onClick={toggle}>
-          Projects
-        </MobileMenuLink>
         <MobileMenuLink to="about" onClick={toggle}>
           About
         </MobileMenuLink>
-        <MobileMenuLink to="playground" onClick={toggle}>
-          Playground
+        <MobileMenuLink to="skills" onClick={toggle}>
+          Skills
         </MobileMenuLink>
+        <MobileMenuLink to="projects" onClick={toggle}>
+          Projects
+        </MobileMenuLink>
+       
+        
         <MobileButton
-          href="mailto:imomkarlondhe@gmail.com "
+          href="mailto:nareshbabuk21@gmail.com "
           target="_blank"
           rel="noreferrer"
         >
@@ -46,14 +48,14 @@ const MobileMenu = ({ isOpen, toggle }) => {
       </MobileMenuList>
       <MobileSocials>
         <MobileSocial
-          href="mailto:imomkarlondhe@gmail.com"
+          href="mailto:nareshbabuk21@gmail.com"
           target="_blank"
           rel="noopener noreferrer"
         >
           Mail
         </MobileSocial>
         <MobileSocial
-          href="https://github.com/Omkaar1"
+          href="https://github.com/boobalannaresh"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -61,7 +63,7 @@ const MobileMenu = ({ isOpen, toggle }) => {
         </MobileSocial>
 
         <MobileSocial
-          href="https://www.linkedin.com/in/omkar-londhe-495956224/"
+          href="https://www.linkedin.com/in/nareshbabu-k-57a361271/"
           target="_blank"
           rel="noopener noreferrer"
         >

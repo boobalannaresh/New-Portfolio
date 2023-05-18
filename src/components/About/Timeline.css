@@ -17,3 +17,7 @@
     color: var(--clr-primary);
   }
   
+  .section__title{
+    margin: 50px auto;
+    text-align:center;
+  }

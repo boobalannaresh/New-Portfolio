@@ -239,9 +239,9 @@ export const Timeline = () => {
           <VerticalTimelineElement
             icon={<BsFillStarFill />}
             iconStyle={{
-              border: ` 3px solid var(--clr-primary)`,
-              backgroundColor: `var(--clr-bg)`,
-              color: `var(--clr-primary)`,
+              border: ` 3px solid white`,
+              backgroundColor: `white`,
+              color: `crimson`,
             }}
           ></VerticalTimelineElement>
         </VerticalTimeline>

@@ -10,6 +10,7 @@ import {
 import { SectionHeading, SectionTitle } from "../styles/SectionHeading";
 import { StyledParagraph } from "../styles/Typography.styled";
 import myImage from "./Profile Photo.png";
+import { Timeline } from "./Timeline";
 
 const About = () => {
   return (
@@ -37,6 +38,7 @@ const About = () => {
           
         </AboutDetailsContainer>
       </AboutContent>
+      <Timeline />
     </StyledAbout>
   );
 };
